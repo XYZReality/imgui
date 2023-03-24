@@ -6180,11 +6180,11 @@ void ImGui::ShowStyleEditor(ImGuiStyle* ref)
             ImGui::SliderFloat("GrabMinSize", &style.GrabMinSize, 1.0f, 20.0f, "%.0f");
 
             ImGui::SeparatorText("Borders");
-            ImGui::SliderFloat("WindowBorderSize", &style.WindowBorderSize, 0.0f, 1.0f, "%.0f");
-            ImGui::SliderFloat("ChildBorderSize", &style.ChildBorderSize, 0.0f, 1.0f, "%.0f");
-            ImGui::SliderFloat("PopupBorderSize", &style.PopupBorderSize, 0.0f, 1.0f, "%.0f");
-            ImGui::SliderFloat("FrameBorderSize", &style.FrameBorderSize, 0.0f, 1.0f, "%.0f");
-            ImGui::SliderFloat("TabBorderSize", &style.TabBorderSize, 0.0f, 1.0f, "%.0f");
+            ImGui::SliderFloat("WindowBorderSize", &style.WindowBorderSize, 0.0f, 10.0f, "%.1f");
+            ImGui::SliderFloat("ChildBorderSize", &style.ChildBorderSize, 0.0f, 10.0f, "%.1f");
+            ImGui::SliderFloat("PopupBorderSize", &style.PopupBorderSize, 0.0f, 10.0f, "%.1f");
+            ImGui::SliderFloat("FrameBorderSize", &style.FrameBorderSize, 0.0f, 10.0f, "%.1f");
+            ImGui::SliderFloat("TabBorderSize", &style.TabBorderSize, 0.0f, 10.0f, "%.1f");
 
             ImGui::SeparatorText("Rounding");
             ImGui::SliderFloat("WindowRounding", &style.WindowRounding, 0.0f, 12.0f, "%.0f");
